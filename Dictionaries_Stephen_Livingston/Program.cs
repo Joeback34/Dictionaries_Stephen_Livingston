@@ -22,7 +22,7 @@ namespace Dictionaries_Stephen_Livingston
             topGames.Add(9, "Hammerwatch");
             topGames.Add(10, "Dead Space");
 
-            foreach(KeyValuePair<int, string> kvp in topGames) // loops through topGames dictionary and prints out each key/value pair on a new line
+            foreach(KeyValuePair<int, string> kvp in topGames) // loops through topGames dictionary and prints out each key/value pair on a new line.
             {
                 Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
             }
@@ -57,7 +57,7 @@ namespace Dictionaries_Stephen_Livingston
 
             Console.WriteLine($"Favorite Game: {favGame}");
 
-            Hashtable capitals = new Hashtable()  // creates new hashTables called capitals and 
+            Hashtable capitals = new Hashtable()  // creates new hashTables called capitals and initialized with states as the keys and capitals with the value.
             {
                 { "Oklahoma", "Oklahoma City" },
                 { "New York", "Albany" },
